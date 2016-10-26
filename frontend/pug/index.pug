@@ -1,0 +1,13 @@
+extends layouts/_default
+
+block vars
+	- var page = { language: 'ru', name: 'home', title: 'Alex', appTitle: 'Alex app', description: 'Your great description of page', keywords: 'front-end developing' };
+
+block header
+	include partials/_header
+
+block main
+	include pages/index/_main
+
+block footer
+	include partials/_footer

@@ -1,0 +1,10 @@
+doctype html
+block vars
+html(lang=page.language)
+	head
+		include ../partials/_head
+
+	body(class="page-" + page.name)
+		block header
+		block main
+		block footer

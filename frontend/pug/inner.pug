@@ -1,0 +1,22 @@
+extends layouts/_default
+
+block vars
+  -
+    page = {
+      language: 'ru',
+      name: 'inner',
+      title: 'Alex',
+      appTitle: 'Alex app',
+      description: 'Your great description of page',
+      keywords: 'front-end developing'
+
+    }
+
+block header
+  include partials/_header
+
+block main
+  include pages/inner/_main
+
+block footer
+  include partials/_footer

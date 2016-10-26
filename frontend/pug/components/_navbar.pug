@@ -1,0 +1,6 @@
+include bemto/bemto
+nav.navbar-list
+	ul
+		each href, item in {"Home": "/","InneR": "/inner.html"}
+			li
+				a( href=href, title=item )= item
